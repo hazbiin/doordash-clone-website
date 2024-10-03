@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doordash Food Delivery & Takeout - From Restaurants Near Your</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all-contents-container">
+        <!-- ----------------app download banner---------------- -->
+        <div class="app-download-banner-container flex">
+            <div class="download-banner-logo-container">
+                <div class="logo-icon-container flex">
+                    <svg class="app-logo-icon"  width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="styles__StyledInlineSvg-sc-12l8vvi-0 iIiQzo sc-3e8c5f59-1 bySLBf fetched-icon">
+                        <path d="M20.9506 9.06644C20.0784 7.42113 18.3736 6.41016 16.5301 6.41016H2.47575C2.21805 6.41016 2 6.62821 2 6.90573C2 7.02467 2.05947 7.14361 2.13876 7.24272L5.19147 10.3153C5.46899 10.5928 5.8258 10.7514 6.20243 10.7316H16.094C16.8076 10.7316 17.3825 11.2866 17.3825 12.0002C17.3825 12.7139 16.8274 13.2887 16.1138 13.2887H9.31461C9.05691 13.2887 8.83886 13.5068 8.83886 13.7843C8.83886 13.9033 8.89833 14.0222 8.97762 14.1213L12.0303 17.1939C12.3078 17.4714 12.6647 17.6102 13.0611 17.6102H16.1535C20.1577 17.6102 23.1905 13.3284 20.9506 9.06644Z" fill="#EB1700">
+                        </path>
+                    </svg>
+                    <!-- <img src="assets/svgs/ad1-logo.svg"> -->
+                </div>
+            </div>
+            <div class="app-download-banner-text">
+                <p>Browse faster in the app</p>
+                <p>$0 delivery fee on first order</p>
+                <div class="banner-rating flex">
+                    <img src="assets/svgs/star-icon.svg">
+                    <img src="assets/svgs/star-icon.svg">
+                    <img src="assets/svgs/star-icon.svg">
+                    <img src="assets/svgs/star-icon.svg">
+                    <img src="assets/svgs/half-star-icon.svg">
+                    <p class="rate">18.2M ratings</p>
+                </div>
+            </div>
+            <button class="header-button">
+                <span class="header-button-text">
+                    Open
+                </span>
+            </button>
+        </div>
+        <!------------------fixed nav header---------------------->
+        <section class="header">
+            <div class="header-content-container flex">
+                <div class="header-logo-container flex">
+                    <img src="assets/svgs/small-logo-red.svg" alt="">
+                    <img class="header-logoname-hide" src="assets/svgs/large-logoname-red.svg" alt=""> 
+                </div>
+                <div class="header-buttons flex">
+                    <button class="header-button flex">
+                        <span id="header-btn1">
+
+                        </span>
+                    </button>
+                    <button class="header-button flex">
+                        <span id="header-btn2">
+
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------main banner----------------------  -->
+        <section id="main-banner">
+            <div class="main-banner-container flex">
+                <div class="logo-container flex">
+                    <div class="small-logo flex">  
+                        <img src="assets/svgs/small-logo.svg" alt="">
+                        <div class="logoname-container flex">
+                            <img src="assets/svgs/small-logoname-svg.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="large-logo flex">
+                        <img class="large-logo-icon" src="assets/svgs/large-logo.svg" alt="">
+                        <div class="logoname-container flex">
+                            <img src="assets/svgs/large-logoname.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-banner-content flex">
+                    <div class="main-banner-heading-container flex">
+                        <h1 class="banner-heading">
+                            Discover restaurants and more near you.
+                        </h1>
+                    </div>
+                    <div class="main-banner-header">
+                        <div class="main-banner-buttons flex">
+                                <button class="header-button flex">
+                                    <span id="btn1">
+
+                                    </span>
+                                </button>
+                                <button class="header-button flex">
+                                    <span id="btn2">
+
+                                    </span>
+                                </button>
+                        </div>
+                    </div>
+                    <div class="main-banner-bottom-section flex">
+                        <div class="searchbar-container flex">
+                                <div class="searchbar flex">
+                                    <div class="searchbar-icon-container flex">
+                                        <img class="searchbar-icon location-icon-hide" src="assets/svgs/location-icon.svg" />
+                                        <img class="searchbar-icon zoom-icon-hide" src="assets/svgs/zoom-icon.svg" alt="">
+                                    </div>
+                                    <div class="inputbox-container">
+                                        <input class="search-bar" type="text" placeholder="Enter delivery address">
+                                    </div>
+                                    <div class="searchbar-button-container">
+                                        <button class="arrow-button">
+                                            <img class="black-arrow-hide" src="assets/svgs/arrow-icon.svg" >
+                                            <img class="white-arrow-hide" src="assets/svgs/white-searchbar-arrow.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="main-banner-content-button">
+                            <button class="main-button flex">
+                               <img src="assets/svgs/person-icon.svg" >
+                               <span id="btn3"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -----------sub main section---------------->
+        <section class="sub-banner">
+            <div class="sub-main-section-container">
+                <div class="sub-main-section flex">
+                    <div class="sub-main-section-image flex">
+                        <img class="sub-main-logo" src="assets/svgs/ad2-logo.svg" >
+                    </div>
+                    <div class="sub-main-section-content">
+                        <img src="assets/icons/google-play-store-logo.svg">
+                        <p class="content-heading">DoorDash App</p>
+                        <p class="content-content">Food & Groceries, Delivered</p>
+                        <button class="main-button flex">
+                            <span class="main-button-text flex">
+                                Get the App 
+                                <img class="button-arrow-icon flex" src="assets/svgs/white-arrow-svg.svg" >
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------section 1------------------------------->
+        <div styles="display:contents">
+        <div class="section-1">
+            <div class="section1-container flex">
+                <div class="sections flex">
+                    <div class="section flex">
+                        <div class="section-img">
+                            <img src="assets/icons/ScootScoot.svg" alt="">
+                        </div>
+                        <div class="section1-content flex">
+                            <div class="section-descriptions">
+                                <p class="section1-title">Become a Dasher </p>
+                                <p class="section1-description">As a delivery driver, make money and work on your schedule. Sign up in minutes.</p>
+                            </div>
+                            <button class="section-button flex">
+                                <span class="button-text">Start earning</span>
+                                <img src="assets/svgs/red-arrow-icon.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="section flex">
+                        <div class="section-img">
+                            <img src="assets/icons/Storefront.svg" alt="">
+                        </div>
+                        <div class="section1-content flex">
+                            <div class="section-descriptions">
+                                <p class="section1-title">Become a Merchant </p>
+                                <p class="section1-description">Attract new customers and grow sales, starting with 0% commissions for up to 30 days.</p>
+                            </div>
+                            <button class="section-button flex">
+                                <span class="button-text">Sign up for DoorDash</span>
+                                <img src="assets/svgs/red-arrow-icon.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="section flex">
+                        <div class="section-img">
+                            <img src="assets/icons/iphone.svg" alt="">
+                        </div>
+                        <div class="section1-content flex">
+                            <div class="section-descriptions">
+                                <p class="section1-title">Get the best DoorDash experience</p>
+                                <p class="section1-description">Experience the best your neighborhood has to offer, all in one app.</p>
+                            </div>
+                            <button class="section-button flex">
+                                <span class="button-text">Get the app </span>
+                                <img src="assets/svgs/red-arrow-icon.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+     <!-------------------------section 2------------------------------->
+     <section class="section-2">
+        <div class="background-container">
+            <div class="section-background1">
+                <div class="section-wrapper1 flex">
+                    <div class="section2-img">
+                        <img class="mobile-hidden"src="assets/images/download_the_app_mobile.png" alt="">
+                        <img class="desktop-hidden" src="assets/images/download_the_app_desktop.png" alt="">
+                    </div>
+                    <div class="section2-content flex">
+                        <p class="main-title">Everything you crave, delivered.</p>
+                        <p class="main-subtitle">Your favorite local restaurants</p>
+                        <p class="main-description">Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you've been meaning to try.</p>
+                        <button class="main-button flex">
+                            <span class="main-button-text">
+                                Find restaurants
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-container">
+            <div class="section-background2">
+                <div class="section-wrapper2 flex">
+                    <div class="section2-img">
+                        <img class="mobile-hidden" src="assets/images/dashpass_mobile.png" alt="">
+                        <img class="desktop-hidden" src="assets/images/dashpass_desktop.png" alt="">
+                    </div>
+                    <div class="section2-content flex">
+                        <p class="main-title">DashPass is delivery for less</p>
+                        <p class="main-description">Members get a $0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it's free for 30 days.</p>
+                        <button class="main-button flex">
+                            <span class="main-button-text">
+                                Get DashPass
+                            </span>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </div> 
+    </section>
+     <!--------------------section 3---------------------->
+     <section class="section3">
+        <div class="section3-container flex">
+            <div class="section3-content flex">
+                <p class="main-title">Get grocery and convenience store essentials</p>
+                <p class="main-subtitle">Grocery delivery, exactly how you want it.</p>
+                <p class="main-description">Shop from home and fill your cart with fresh produce, frozen entrees, deli delights and more.</p>
+                <button class="main-button flex">
+                    <span class="main-button-text">
+                        Shop Groceries
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-----------------section 4-------------------------->
+    <section class="section4">
+        <div class="section4-container">
+            <div class="section4-wrapper flex">
+                <div class="section4-img-container">
+                    <img class="section4-img mobile-hidden" src="assets/images/convenience_mobile.png" alt="">
+                    <img class="section4-img desktop-hidden" src="assets/images/convenience_desktop.png" alt="">
+                </div>
+                <div class="section4-content-container">
+                    <div class="section4-content-wrapper flex">
+                        <p class="main-title">Convenience stores at your doorstep</p>
+                        <p class="main-description">Stock up on snacks, household essentials, candy, or vitamins — all delivered in under an hour.</p>
+                        <button class="main-button flex">
+                        <span class="main-button-text">
+                            Shop Now
+                        </span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+     <!----------------section5 heading--------------------->
+    <div class="section-main-heading flex">
+        <p class="main-title" >Helping you with to-dos and gifting</p>
+   </div>
+   <!------------------section5 scrolling --------------------->
+   <section class="section5 ">
+    <div class="section5-container flex">
+        <div class="section5-content flex">
+            <div class="section5-img-container">
+                <div class="section5-img-wrapper">
+                    <img class="section5-img mobile-hidden" src="assets/images/package_pickup_mobile.png" alt="">
+                    <img class="section5-img desktop-hidden" src="assets/images/package_pickup_desktop.png" alt="">
+                </div>
+            </div>
+            <div class="section5-description flex">
+            <p class="main-title">Return packages from home</p>
+            <p class="main-description">Request a package pickup with just a few taps and get your returns dropped off at carriers like UPS, FedEx, and USPS.</p>
+            <button class="main-button flex">
+                <span class="main-button-text">
+                    Try Package Pickup
+                </span>
+            </button>
+            </div>
+        </div>
+        <div class="section5-content flex">
+            <div class="section5-img-container">
+                <div class="section5-img-wrapper">
+                    <img class="section5-img mobile-hidden" src="assets/images/flowers_mobile.png" alt="">
+                    <img class="section5-img desktop-hidden" src="assets/images/flowers_desktop.png" alt="">
+                </div>
+            </div>
+            <div class="section5-description flex">
+            <p class="main-title">Flowers for any occasion</p>
+            <p class="main-description">Shop hand-picked and thoughtfully-arranged blooms from florists near you.</p>
+            <button class="main-button flex">
+                <span class="main-button-text">
+                    Send Flowers
+                </span>
+            </button>
+            </div> 
+        </div>
+        <div class="section5-content flex">
+            <div class="section5-img-container">
+                <div class="section5-img-wrapper">
+                    <img class="section5-img mobile-hidden" src="assets/images/alcohol_mobile.png" alt="">
+                    <img class="section5-img desktop-hidden" src="assets/images/alcohol_desktop.png" alt="">
+                </div>
+            </div>
+            <div class="section5-description flex">
+                <p class="main-title">Restock the minibar</p>
+                <p class="main-description">Hosting a get-together or need or need a special cocktail ingredient? Get liquor, beer, mixers, champagne and wine delivered fast.*</p>
+                <button class="main-button flex">
+                    <span class="main-button-text">
+                        Shop Alcohol
+                    </span>
+                </button>
+                <p class="special-title">*Must be 21+. Enjoy responsibly.</p>
+            </div>
+        </div>
+        <div class="section5-content flex">
+            <div class="section5-img-container">
+                <div class="section5-img-wrapper">
+                    <img class="section5-img mobile-hidden" src="assets/images/pet_supplies_mobile.png" alt="">
+                <img class="section5-img desktop-hidden" src="assets/images/pet_supplies_desktop.png" alt="">
+                </div> 
+            </div>
+            <div class="section5-description flex">
+                <p class="main-title">What your pets need, and want</p>
+                <p class="main-description">Finally, something cat people and dog people agree on — pet supplies delivery. Shop pet food, chew toys, and even costumes.</p>
+                <button class="main-button flex">
+                    <span class="main-button-text">
+                        Get Pet Supplies
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- -----------------section 6 heading--------------------------------->
+   <div class="section-main-heading flex " id="section-main-heading2">
+    <p class="main-title" >Unlocking opportunity for Dashers and businesses</p>
+   </div>
+   <!--------------------section 6----------------------------------------->
+   <section class="section6">
+    <div class="background-container">
+     <div class="section-background1">
+        <div class="section-wrapper1 flex">
+            <div class="section6-img">
+                <img class="mobile-hidden" src="assets/images/become_a_dasher_mobile.png" alt="">
+                <img class="desktop-hidden" src="assets/images/become_a_dasher_desktop.png" alt="">
+            </div>
+            <div class="section6-content flex">
+                <p class="main-title">Sign up to dash and get paid</p>
+                <p class="main-description">Deliver with the #1 Food and Drink App in the U.S. As a delivery driver, you'll make money and work on your schedule. Sign up in minutes.</p>
+                <button class="main-button flex">
+                   <span class="main-button-text">
+                       Become a Dasher
+                   </span>
+               </button>
+            </div>
+        </div>
+     </div>
+    </div>
+    <div class="background-container">
+     <div class="section-background2 ">
+        <div class="section-wrapper2 flex">
+            <div class="section6-img" >
+                <img class="mobile-hidden" src="assets/images/work_with_doordash_mobile.png" alt="">
+                <img class="desktop-hidden" src="assets/images/work_with_doordash_desktop.png" alt="">
+            </div>
+            <div class="section6-content flex">
+                <p class="main-title">Grow your business with DoorDash</p>
+                <p class="main-description">Businesses large and small partner with DoorDash to reach new customers, increase order volume, and drive more sales.</p>
+                <button class="main-button flex">
+                   <span class="main-button-text">
+                       Become a Partner
+                   </span>
+               </button>
+            </div>
+        </div>  
+     </div>
+    </div>
+    </section>
+    <!-----------------------section7------------------------------>
+    <section class="section7">
+        <h2 class="main-subtitle">Get more from your neighborhood</h2>
+        <div class="section7-title flex">
+            <div class="titles-1 flex">
+                <a href="#">Top Cities</a>
+            </div>
+            <div class="titles flex">
+                <a href="#">Top Cuisines</a>
+            </div>
+            <div class="titles flex">
+                <a href="#">Top Chains</a>
+            </div>
+        </div>
+        <div class="section7-list flex">
+            <div class="list-item flex"><a href="">New York</a></div>
+            <div class="list-item flex"><a href="">Los Angeles</a></div>
+            <div class="list-item flex"><a href="">Toronto</a></div>
+            <div class="list-item flex"><a href="">Chicago</a></div>
+            <div class="list-item flex"><a href="">Houston</a></div>
+            <div class="list-item flex"><a href="">Brooklyn</a></div>
+            <div class="list-item flex"><a href="">San Diego</a></div>
+            <div class="list-item flex"><a href="">Las Vegas</a></div>
+            <div class="list-item flex"><a href="">San Francisco</a></div>
+            <div class="list-item flex"><a href="">Seattle</a></div>
+            <div class="list-item flex"><a href="">Atlanta</a></div>
+            <div class="list-item flex"><a href="">Queens</a></div>
+            <div class="list-item flex"><a href="">Vancouver</a></div>
+            <div class="list-item flex"><a href="">Miami</a></div>
+            <div class="list-item flex"><a href="">San Antonio</a></div>
+        </div>
+    </section>
+    <!-- -------------------footer ---------------------------->
+    <footer>
+    <div class="footer-wrapper flex">
+        <div class="footer-section-1 ">
+            <h2 class="footer-heading">
+                Popular Categories
+            </h2>
+        <div class="footer-section-1-container flex">
+            <div class="footer-group flex">
+                <a href="#">Alcohol Delivery</a>
+                <a href="#">Back To School Delivery</a>
+                <a href="#">Beauty Stores</a>
+                <a href="#">Beauty Supply</a>
+                <a href="#">Catering Near Me</a>
+                <a href="#">Convenience Stores Canada</a>
+            </div>
+            <div class="footer-group flex">
+                <a href="#">Dashmart Near Me</a>
+                <a href="#">Deck The Doorstep</a>
+                <a href="#">Drugstores Canada</a>
+                <a href="#">Flower Delivery</a>
+                <a href="#">Grocery Delivery Canada</a>
+                <a href="#">Halloween</a>
+            </div>
+            <div class="footer-group flex">
+                <a href="#">Hsa Bank</a>
+                <a href="#">Hsa Fsa Store</a>
+                <a href="#">Large Group Orders</a>
+                <a href="#">Medicine Delivery</a>
+                <a href="#">Mothers Day</a>
+                <a href="#">Pet Store Near Me</a>
+            </div>
+            <div class="footer-group flex">
+                <a href="#">Retail Stores Near Me</a>
+                <a href="#">Seasonal Holidays</a>
+                <a href="#">Snap Ebt</a>
+                <a href="#">Valentines Day</a>
+            </div>
+        </div>
+    </div>
+        <div class="footer-section-2 flex">
+            <div class="footer-section-2-content flex">
+                <div class="footer-section-2-group flex">
+                    <h2 class="footer-heading">Get to Know Us</h2>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Company Blog</a>
+                        <a href="#">Engineering Blog</a>
+                        <a href="#">Merchant Blog</a>
+                        <a href="#">Gift Cards </a>
+                        <a href="#">Package Pickup</a>
+                        <a href="#">Promotions</a>
+                        <a href="#">Dasher Central</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Glassdoor</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Newsroom</a>
+                </div>
+                <div class="footer-section-2-group  flex">
+                    <h2 class="footer-heading">Let Us Help You</h2>
+                        <a href="#">Account Details</a>
+                        <a href="#">Order History</a>
+                        <a href="#">Help</a>
+                </div>
+                <div class="footer-section-2-group  flex">
+                    <h2 class="footer-heading">Doing Business</h2>
+                        <a href="#">Become a Dasher</a>
+                        <a href="#">List Your Business</a>
+                        <a href="#">Get Dashers for Deliveries</a>
+                        <a href="#">Get DoorDash for Business</a>
+                </div>
+            </div>
+            <div class="footer-section-2-logo flex">
+                <div class="footer-section-2-logo-group flex">
+                    <a href="#" class="footer-icon-container">
+                        <div class="footer-icon flex">
+                            <img src="assets/svgs/footer-appstore-icon.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="footer-icon-container">
+                        <div class="footer-icon flex">
+                            <img src="assets/svgs/footer-playstore-icon.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section-3 flex ">
+            <div class="footer-section-3-group flex"> 
+                <div class="footer-section-3-wrapper flex">
+                    <svg aria-hidden="true" width="32" height="18" viewBox="0 0 99.5 56.5" fill="#FFFFFF"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg>
+                    <a href="#"><span>Terms of Service</span></a>
+                    <a href="#"><span>Privacy</span></a>
+                    <a href="#"><span>Delivery Locations</span></a>
+                    <a href="#"><span>Do Not Sell or Share My Personal Information</span></a>
+                    <span class="copyright"> &#xA9; 2024 DoorDash</span>
+                </div>
+            </div>
+            <div class="footer-section-3-group-2 flex">
+                <div class="footer-select-box flex">
+                    <div class="network-icon-container flex">
+                        <img src="assets/svgs/footer-network-icon.svg" alt="">
+                    </div>
+                    <div class="select-box-container flex">
+                        <div class="select-box-wrapper flex">
+                            <select class="select-box">
+                                <option>English (US)</option>
+                            </select>
+                            <div class="down-arrow-container flex">
+                                <img src="assets/svgs/footer-down-arrow.svg" alt="">
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section-3-group-3 flex">
+                <a href="#" class="social-media ">
+                    <img class="social-media-icon" src="assets/svgs/facebook.svg" alt="">
+                </a>
+                <a href="#" class="social-media">
+                    <img class="social-media-icon" src="assets/svgs/twitter.svg" alt="">
+                </a>
+                <a href="#" class="social-media">
+                    <img class="social-media-icon" src="assets/svgs/instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    </footer>
+ </div>
+</body>
+</html>
