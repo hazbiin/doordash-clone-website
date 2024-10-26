@@ -529,14 +529,12 @@ body,p,h1,h2,h4,h5,h6,div,span,button{
     font-size:18px;
     font-family: 'TTNorms Bold';
     letter-spacing: -0.01px;
-    line-height: 21px;
     font-weight: 700;
     margin-bottom:4px;
 }
 .sub-main-section-content .content-content{
     font-size: 14px;
     letter-spacing: 0px;
-    line-height: 16px;
     color: #606060ff;
     font-family: 'TTNorms Medium';
     font-weight: 500;
@@ -1094,7 +1092,7 @@ footer .footer-section-3 .copyright{
     gap:12px;
     flex-wrap: nowrap;
     justify-content: center;
-    /* min-height: 28px; */
+    height: 28px;
 }
 .social-media{
     opacity:0.7;
